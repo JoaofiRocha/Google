@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index .css">
+</head>
+<body class="p-3 mb-2 bg-white text-black">
+
+    <div>
+        <img src="googleLogo.png" alt="google" width="70px">
+        <div class="position-absolute top-0 end-0">   
+            <a href="index.html">Google Search</a>
+            <a href="image.html">Image search</a>
+        </div>
+    </div>
+
+    <div id="adv-title">
+        Advanced Search
+    </div>
+        
+    <div class="line"> </div>
+
+    <div class="find">
+        <form action="https://www.google.com/search">
+            <div>
+                <p id="sub-title">Find Pages With...</p>
+            </div>
+
+            <div>
+                
+                <div class="field">
+                    <label for="input" class="field-text">all these words:</label>
+                    <input type="text" class="adv-bar" name="q">
+                </div>
+
+                <div class="field">
+                    <label for="input" class="field-text">this exact word or phrase:</label>
+                    <input type="text" class="adv-bar" name="as_epq">
+                </div>
+
+                <div class="field">
+                    <label for="input" class="field-text">any of these words:</label>
+                    <input type="text" class="adv-bar" name="as_oq">
+                </div>
+
+                <div class="field">
+                    <label for="input" class="field-text">none of these words:</label>
+                    <input type="text" class="adv-bar" name="as_eq">
+                </div>
+            </div>
+
+            <div class="line"> </div>
+
+            <div class="btn-adv-container">
+                <button type="submit" class="btn btn-primary btn-sm btn-adv">Advanced Search</button>
+            </div>
+        </form>
+    </div>
+    <div class="line"> </div>
+</body>
+</html>
